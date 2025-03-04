@@ -14,8 +14,10 @@ const nextConfig = {
         buildActivityPosition: "bottom-right",
     },
     experimental: {
-        after: true,
-        ppr: 'incremental',
+        // after: true,
+        // ppr: 'incremental',
+        ppr: true,
+
     }
 };
 
